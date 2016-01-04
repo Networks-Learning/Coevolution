@@ -1,10 +1,8 @@
 # Coevolution
-# Hi
 Codes for NIPS'15 paper, COEVOLVE: A Joint Point Process Model for Information Diffusion and Network Co-evolution.
-# Bye
 
 *** COMPILE ***
-To compile run the follwoings:
+To compile run the follwoings: <br>
 	g++ -c lib/rng.cpp
 	g++ -o coevolution main.cpp rng.o
 Then the excutable file "coeovlution" is ready for use.
@@ -50,7 +48,7 @@ Depending on the input specificaiton you will get up to 4 output files.
 		Also, then in in N lines it has mu,alpha,eta,beta per node.
 	Log File (written when wl=1 and is log.txt): contains a log file of what happens. It will be helpful for develpment.
 	
-*** QUESTIONS ***>
-For any question please contact Mehrdad Farajtabar (mehrdad@gatech.edu).
+*** QUESTIONS ***
+For any question please contact Mehrdad Farajtabar (mehrdad@gatech.edu)
 
 
