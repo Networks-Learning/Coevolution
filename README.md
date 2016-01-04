@@ -12,7 +12,8 @@ Then the excutable file "coeovlution" is ready for use.
 
 ## RUN
 To run with complete  use the following command:
-> ./coevolution -N 100 -T 150 -sp 0.004 -finSp 0 -ofn trace.txt -cfn cas.txt -mfn model.txt -wl 0 -mu 0.0001 -alpha 0.1 -eta 0.1 -beta 0.1 -rnd 0 -w_phi 1 -w_kap 1 
+> ./coevolution -N 100 -T 100 -sp 0.004 -finSp 0 -ofn trace.txt -cfn cas.txt -mfn model.txt -wl 0 -mu 0.0001 -alpha 0.5 -eta 0.5 -beta 0.5 -rnd 0 -w_phi 1 -w_kap 1 2> log.txt
+
 
 
 ## INPUT
