@@ -68,7 +68,6 @@ int main(int argc, char* argv[]) {
 	params.mu_mean = mu_mean;
 
 	network.setSize(params.node_count);
-	// history.setSize(params.node_count);
 	Simulator* sim = new Simulator();
 
 	sim->simulate();

@@ -1,18 +1,19 @@
 # Coevolution
 Codes for NIPS'15 paper, COEVOLVE: A Joint Point Process Model for Information Diffusion and Network Co-evolution.
 
-*** COMPILE ***
-To compile run the follwoings: <br>
-	g++ -c lib/rng.cpp
-	g++ -o coevolution main.cpp rng.o
-Then the excutable file "coeovlution" is ready for use.
+*** COMPILE ***  
+To compile run the follwoings: 
+	g++ -c lib/rng.cpp  
+	g++ -o coevolution main.cpp rng.o  
+Then the excutable file "coeovlution" is ready for use. 
+
 
 *** RUN ***
 To run with complete  use the following command:
 ./coevolution -N 100 -T 150 -sp 0.004 -finSp 0 -ofn trace.txt -cfn cas.txt -mfn model.txt -wl 0 -mu 0.0001 -alpha 0.1 -eta 0.1 -beta 0.1 -rnd 0 -w_phi 1 -w_kap 1 
 
 *** INPUT ***
-The parameters are:
+The parameters are: 
 	N:	Number of nodes
 	T:	Time limit of the simulation 
 	sp: Sparsity of limit of the simulation
@@ -50,5 +51,3 @@ Depending on the input specificaiton you will get up to 4 output files.
 	
 *** QUESTIONS ***
 For any question please contact Mehrdad Farajtabar (mehrdad@gatech.edu)
-
-

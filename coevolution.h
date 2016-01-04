@@ -162,12 +162,6 @@ ostream& operator<< (std::ostream &out, const Network& network){
 		}
 		out << newline;
 	}
-/*	for (int i=0; i < network.size; i++) {
-		for (int j=0; j < network.adj_out[i].size(); j++) {
-			out << tab << network.adj_out[i].at(j);
-		}
-		out << newline;
-	}*/
 	return out;
 }
 
@@ -249,7 +243,7 @@ class Process {
 	double_t nextEventTime;
 
 	Process(size_t, size_t);
-	// virtual ~Process();
+
 	virtual double_t getIntensity(double_t time) = 0;
 
 	virtual void updateIntensity(ActivityEvent* activityEvent) = 0;

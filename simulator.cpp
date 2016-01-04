@@ -4,7 +4,6 @@
 using namespace std;
 
 class Simulator {
-
 	public:
 	vector<LinkProcess*> linkProcesses;
 	vector<ActivityProcess*> activityProcesses;
@@ -21,9 +20,6 @@ class Simulator {
 	UpdatableHeap linkHeap;
 	NonUpdatableHeap activityHeap;
 	ActivityEvents allActivityEvents;
-
-
-
 };
 
 Simulator::Simulator() {
@@ -42,7 +38,6 @@ Simulator::Simulator() {
 				activityHeap.insert(activityEvent);
 			}
 		}
-
 	}
 	LOGMSG("after activity processes");
 
@@ -90,7 +85,6 @@ void Simulator::intensities2output(double_t t) {
 			clog << newline;
 		clog << tab << linkProcesses.at(i)->getIntensity(t);
 	}
-
 	clog << newline;
 }
 
@@ -122,7 +116,6 @@ void Simulator::simulate() {
 		
 		//intensities2output(t);
 		//nextEvents2output();
-
 		if (t > cout_step * cout_count) {
 			cout << "" << t << tab << tab << n_twt << tab << n_retwt << tab << n_lnk << tab << double(n_lnk)/network.size/(network.size-1) << endl;
 			cout_count++;
@@ -207,12 +200,10 @@ void Simulator::simulate() {
 			break;
 
 		iter ++;
-
 	}
 
 	modelFile.close();
 	outputFile.close();
-
 }
 
 void Simulator::dfs (ActivityEvent* event, int level, ints& levels, int & max_level) {
