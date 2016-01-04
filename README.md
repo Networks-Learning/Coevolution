@@ -1,5 +1,7 @@
 # Coevolution
-Codes for NIPS'15 paper, COEVOLVE: A Joint Point Process Model for Information Diffusion and Network Co-evolution.
+This repository contains the codes for the paper **"Coevolve: A joint point process model for information diffusion and network co-evolution."** 
+Mehrdad Farajtabar, Yichen Wang, Manuel Gomez-Rodriguez, Shuang Li, Hongyuan Zha, and Le Song.
+In Advances in Neural Information Processing Systems, pp. 1945-1953. 2015.
 
 ## COMPILE
 To compile run the follwoings: <br>
