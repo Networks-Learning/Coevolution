@@ -1,10 +1,10 @@
 # Coevolution
 Codes for NIPS'15 paper, COEVOLVE: A Joint Point Process Model for Information Diffusion and Network Co-evolution.
 
-*** COMPILE ***
+## COMPILE
 To compile run the follwoings: <br>
-	g++ -c lib/rng.cpp
-	g++ -o coevolution main.cpp rng.o
+*g++ -c lib/rng.cpp
+*g++ -o coevolution main.cpp rng.o
 Then the excutable file "coeovlution" is ready for use.
 
 *** RUN ***
