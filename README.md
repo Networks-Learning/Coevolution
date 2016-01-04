@@ -50,5 +50,7 @@ Depending on the input specificaiton you will get up to 4 output files.
 		Also, then in in N lines it has mu,alpha,eta,beta per node.
 	Log File (written when wl=1 and is log.txt): contains a log file of what happens. It will be helpful for develpment.
 	
-		
+*** QUESTIONS ***>
+For any question please contact Mehrdad Farajtabar (mehrdad@gatech.edu).
+
 
